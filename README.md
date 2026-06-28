@@ -134,6 +134,7 @@ cd terminal-chat
 npm install        # automatically generates TLS certificate via postinstall.js
 ```
 
+
 ### Global install (run from anywhere)
 
 ```bash
@@ -142,6 +143,19 @@ terminal-chat
 ```
 
 After `npm install`, you will find `lib/server.key` and `lib/server.crt` generated automatically.
+
+### Binary install (run from the binary file without installing any dependencies)
+
+1. Download the binary file:
+```bash
+wget https://github.com/owl-sp/Terminal-chat/releases/download/Terminal-chat/terminal-chat
+```
+
+2. Make it executable and run:
+```bash
+chmod +x terminal-chat
+./terminal-chat
+```
 
 ---
 
